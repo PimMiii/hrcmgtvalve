@@ -45,7 +45,7 @@ nav div {
 
 header {
   height: 30vh;  
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Valve_Lobby_2016.jpg/1024px-Valve_Lobby_2016.jpg);
+  background-image: url(/assets/valvelobbyheader.jpg);
   background-size: cover;
   background-position: center;
   background-color: rgb(23, 26, 33);
