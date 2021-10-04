@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Noto+Serif:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(245, 251, 239);
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  background-color: rgb(23, 26, 33);
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: rgb(17, 157, 164);
+}
+
+a:hover {
+  color: rgb(12, 116, 137);
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav div {
+  padding: 8px;
+  
+}
+
+header {
+  height: 30vh;  
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Valve_Lobby_2016.jpg/1024px-Valve_Lobby_2016.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(23, 26, 33);
+}
+
+
+
+h1 {
+  margin-top: 4px;
+  padding-top: 10vh;
+  font-size: 2.8em;  
+  text-align: center;
+  font-family: "Noto Serif", serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 4px 4px rgb(12, 116, 137);
+  color: rgb(245, 251, 239);
+  
+  
+}
+h2 {
+  margin-top: 4px;
+}
+h3 {
+  margin-top: 2px;
+  font-size: 1.05em;
+}
+
+section {
+  border-radius: 15px 30px 15px 5px;
+  background-color: rgb(226, 232, 221);
+  box-shadow: 2px 4px rgb(12, 116, 137);
+  padding: 20px;
+  margin: 20px auto;
+  color: rgb(22, 22, 66);
+  font-size: 1.1em;
+  max-width: 800px;
+}
+
+.quote {
+  border-radius: 15px 30px;
+  border: 2px solid rgb(17, 157, 164);
+  background-color: rgb(245, 251, 239);
+  font-size: 1.05em;
+  font-weight: 700;
+  color: rgb(12, 116, 137);
+  text-align: center;
+  padding: 2px;
+}
+
+.quote figcaption {
+  padding-bottom: 4px;
+}
+
+.quote iframe {
+  padding-top: 8px;
+}
+#bronnen p {
+  font-size: 0.85em;
+}
+
+
+.imagegallery {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagegallery figure {
+  display: block;
+}
+
+.imagegallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: center;
+  border-radius: 20px;
+  border: 2px solid rgb(17, 157, 164);
+}
+
+#imagesteam{
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+}
+
+footer {
+  background-color: rgb(23, 26, 33);
+  font-family: "Montserrat", sans-serif;
+  color: rgb(17, 157, 164);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  text-align: center;
+}
+
+footer div #icons {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+figcaption {
+  color: rgb(23, 26, 33);
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: center;
+}
